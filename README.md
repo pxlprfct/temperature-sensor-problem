@@ -35,13 +35,13 @@ The final data is kinda jank. I could 'average' the data, but it's essentially j
 
 ## Requirements
 - Node/Bun
-- NPM/PNPM
+- npm/pnpm
 
 ## Installation
-- `npm i`
+- `pnpm i`
 
 ## Scripts
-- `npm run generate`
+- `pnpm run generate`
     - Creates fake datasets
-- `npm run dev`
+- `pnpm run dev`
     - Runs the temperature sensor problem and graphs it
