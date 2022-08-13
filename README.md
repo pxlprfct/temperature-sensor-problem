@@ -21,10 +21,12 @@ Write a function in javascript that would generate a time-series of data that co
 - Graphed it
 
 ## General feedback
+- Unclear if the data was meant to carry on past where 1 sensor stopped recording
+- No mention of testing 🤷
+- From experience, it's usually easier to provide the environment for the candidate, be it a dev container or a code sandbox. It really limits ambiguity and helps make sure their time is spent writing code rather than setup.
 - 👎 The problem came without a test dataset
 - 👎 The problem was a little vague(?)
     - I created a generator to create some test data, based on the examples given... but an 'average' of a sensor recording 5x as often as another isn't very useful.
-- Unclear if the data was meant to carry on past where 1 sensor stopped recording.
 
 ## Issues
 The final data is kinda jank. I could 'average' the data, but it's essentially just going to be the dataset that's recording significantly more often. I _could_ break the dataset into chunks of 'x' milliseconds, but it's still the same.
