@@ -1,4 +1,4 @@
-# Opvia Temperature Sensor Problem
+# Temperature Sensor Problem
 
 A scientist is measuring temperature over time in a vessel. They don't trust the accuracy of the sensors so they decide to use 2 sensors to measure the temperature. This results in two sets of time-series measurements. The times of both sensors are not in-sync. These are stored in arrays in the following format:
 
